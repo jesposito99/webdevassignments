@@ -20,7 +20,8 @@ function List() {
 
 document.querySelector('form').addEventListener("submit", function(event) {
     event.preventDefault();
-    List();
     newTodo();
+    List();
+    
     
 });
